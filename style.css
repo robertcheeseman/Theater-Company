@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: rgb(228, 227, 227);
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-left: 100px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: underline solid transparent;
+    transition: text-decoration 1s ease;
+    color: rgb(228, 227, 227);
+    padding: 30px 30px 0px 30px;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline solid currentColor;
+}
+
+#hero-image-container {
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: rgb(228, 227, 227);  
+    width: 100%;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+#hero-text {
+    color: rgb(228, 227, 227);
+    width: 100%;
+    font-size: 165px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#production-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#date-container {
+    border: solid darkgray 1px;
+    background-color: lightgray;
+    width: 60%;
+    left: auto;
+    right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 3px 0px 3px 30px;
+}
+
+.showtime-container {
+
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.production-list-header {
+    font-size: 30px;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+
+main li {
+    padding: 20px;
+    font-size: 20px;
+    align-content: flex-start;
+}
+
+button {
+    background-color: rgb(221, 190, 19);
+    border: solid black 1px;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+hr {
+    margin: 20px;
+    width: 62%
+}
+
+.footer-flex {
+    display: flex;
+    background-color: black;
+    color: rgb(228, 227, 227);
+    margin: 10px 0px 0px 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+footer li {
+    padding: 20px;
+}
+
+.footer-list-header {
+    font-size: 40px;
+    text-decoration: underline;
+}
